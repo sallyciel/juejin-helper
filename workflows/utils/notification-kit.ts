@@ -146,7 +146,7 @@ export class NotificationKit {
     const config = {
       title: options.title,
       desp: options.content,
-      channel: "9"
+      channel: "18"
     };
 
     return axios.post(`https://sctapi.ftqq.com/${token}.send`, config, {
