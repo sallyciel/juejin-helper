@@ -32,7 +32,7 @@ jobs:
         run: |
           cd workflows
           npm install
-          npm checkin
+          npm run checkin
 
 #  SeaGold:
 #    needs: CheckIn
