@@ -2,7 +2,8 @@ name: Auto
 
 on:
   schedule:
-    - cron: "36 0 * * *" # 北京时间上午08:36
+    - cron: "36 9 * * *" # 北京时间上午08:36
+      timezone: 'Asia/Shanghai'
   workflow_dispatch:
 
 env:
